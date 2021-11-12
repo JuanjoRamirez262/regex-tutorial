@@ -1,14 +1,14 @@
 # Matching an Email with Regex
 
-/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
-
-A regular expression, or regex for short, is a way to search patterns of characters, using a particular syntax. 
+A regular expression, or regex for short, is a way to search patterns of characters, using a particular syntax.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+In this document, we'll talk about how regex is used to check if emails match how it's expected to be written. The regex to match an email is:
 
-In this document, we'll talk about how regex is used to check if emails match how it's expected to be written.
+``` javascript
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+```
 
 
 ## Table of Contents
